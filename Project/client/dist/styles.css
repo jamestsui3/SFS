@@ -1,0 +1,38 @@
+/* table {
+  border: 1px solid black;
+} */
+th {
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+}
+#empty{
+  border: none;
+}
+#box1{
+  display:flex;
+  width : 500px;
+  justify-content: space-evenly;
+}
+#box2
+{
+    display: flex;
+    justify-content: space-between;
+    width : 480px;
+    background-color: lightblue;
+}
+#percent, #balance{
+  text-align : right
+}
+#box3{
+  display: flex;
+  width : 300px;
+  justify-content : space-between;
+}
+button{
+  background-color: skyblue;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
